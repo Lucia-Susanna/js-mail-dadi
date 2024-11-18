@@ -18,3 +18,12 @@ Svolgimento:
 - isUserMailPresent diventa true se correctMail.indexOf(userMail)>=0
 
 ESERCIZIO DADI:
+
+Istruzioni:
+- Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
+- Stabilire il vincitore, in base a chi fa il punteggio più alto.
+
+Svolgimento:
+- creo due variabili pcNumber e userNumber vuote
+- creo un ciclo while valido finchè pcNumber===userNumber in cui metto un Math.ceil(Math.random() * 6) per ogni variabile
+- se il pcNumber è pù alto vince altrimenti vince lo userNumber 
