@@ -11,7 +11,7 @@ Istruzioni:
 
 Svolgimento:
 - mi creo un array delle correctMail
-- creo una variabile userMail dentro la qale inserisco un propt in cui l'utente inserisce la mail
+- creo una variabile userMail dentro la quale inserisco un propt in cui l'utente inserisce la mail
 - creo una variabile isUserMailPresent a cui do valore false di default
 - creo una variabile output vuote in cui verrà stampato il messaggio finale
 - creo un ciclo while valido finchè la mail inserita non è corretta, quindi finchè isUserMailPresent non diventa true
