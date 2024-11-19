@@ -3,15 +3,15 @@ let pcNumber=Math.ceil(Math.random() * 6);
 let output = '';
 
 while (userNumber===pcNumber){
-  userNumber = Math.ceil(Math.random() * 6);
-  pcNumber = Math.ceil(Math.random() * 6);  
+  userNumber;
+  pcNumber;  
 }
 
 if(userNumber>pcNumber){
-  output= 'HAI VINTO'
+  output= 'HAI VINTO!.'
 } else{
-  output= 'HAI PERSO'
+  output= 'HAI PERSO!.'
 }
 
-console.log('I numeri estrati sono' , userNumber + ' e ' + pcNumber + ' quindi: ' + output);
+alert(`I numeri estrati sono ${userNumber} e ${pcNumber} quindi: ${output}`);
 
